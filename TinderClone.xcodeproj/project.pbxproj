@@ -14,6 +14,9 @@
 		1B538E592071BA44006864D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B538E572071BA44006864D0 /* LaunchScreen.storyboard */; };
 		1B538E642071BA44006864D0 /* TinderCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B538E632071BA44006864D0 /* TinderCloneTests.swift */; };
 		1B538E6F2071BA44006864D0 /* TinderCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B538E6E2071BA44006864D0 /* TinderCloneUITests.swift */; };
+		1B538E7D2071C4F7006864D0 /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B538E7C2071C4F7006864D0 /* CardsViewController.swift */; };
+		1B538E812071FBDA006864D0 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B538E802071FBDA006864D0 /* CardViewController.swift */; };
+		1B538E832071FC0A006864D0 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B538E822071FC0A006864D0 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		1B538E6A2071BA44006864D0 /* TinderCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinderCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B538E6E2071BA44006864D0 /* TinderCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderCloneUITests.swift; sourceTree = "<group>"; };
 		1B538E702071BA44006864D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B538E7C2071C4F7006864D0 /* CardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
+		1B538E802071FBDA006864D0 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		1B538E822071FC0A006864D0 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				1B538E552071BA44006864D0 /* Assets.xcassets */,
 				1B538E572071BA44006864D0 /* LaunchScreen.storyboard */,
 				1B538E5A2071BA44006864D0 /* Info.plist */,
+				1B538E7C2071C4F7006864D0 /* CardsViewController.swift */,
+				1B538E802071FBDA006864D0 /* CardViewController.swift */,
+				1B538E822071FC0A006864D0 /* ProfileViewController.swift */,
 			);
 			path = TinderClone;
 			sourceTree = "<group>";
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B538E812071FBDA006864D0 /* CardViewController.swift in Sources */,
 				1B538E512071BA44006864D0 /* ViewController.swift in Sources */,
+				1B538E832071FC0A006864D0 /* ProfileViewController.swift in Sources */,
 				1B538E4F2071BA44006864D0 /* AppDelegate.swift in Sources */,
+				1B538E7D2071C4F7006864D0 /* CardsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
